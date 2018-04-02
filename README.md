@@ -4,4 +4,5 @@ This classification is different from spectrogram based classification because w
 
 **Approach**
 Data is labeled at each timestamp in three class i.e Muzzle, Shockwave, None
+
 Tensorflow framework is used to frame level classification
