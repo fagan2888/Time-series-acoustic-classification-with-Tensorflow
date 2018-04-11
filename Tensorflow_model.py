@@ -62,7 +62,7 @@ with graph.as_default():
     learning_rate_ = tf.placeholder(tf.float32, name = 'learning_rate')
     
 with graph.as_default():
-    # (batch, 32, 3) --> (batch, 32, 18)
+    # (batch, 32, 1) --> (batch, 32, 18)
     conv1 = tf.layers.conv1d(inputs=inputs_, filters=18, kernel_size=2, strides=1, 
                              padding='same', activation = tf.nn.relu)
     
